@@ -5,9 +5,86 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(32, 5, 48);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.parent{
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: 1px 1px 18px wheat;
+  background-color: rgb(49, 45, 45);
+  color : antiquewhite;
+  margin: 60px auto;
+  width: 35vw;
+  height: 85vh;
+}
+.container{
+  width: 35vw;
+  text-align: center;
+  
+  
+}
+.head{
+  background-color: rgb(27, 26, 26);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+.input{
+  border-radius: 6px;
+  margin-right: 20px;
+  width: 20vw;
+  height: 3vh;
+  outline: none;
+}
+.add{
+  
+  padding: 8px 25px;
+  
+  border-radius: 60px;
+  color: wheat;
+  background-color: black;
+  font-weight: 1000;
+  border: 2px solid black;
+  outline: 2px solid black;
+  outline-offset: 3px ;
+  transition: all 200ms ease-in-out;
+}
+.add:hover{
+  outline-offset: -2px;
+  border: 2px solid rgb(25, 24, 24);
+  outline: 2px solid rgb(25, 24, 24);
+  cursor: pointer;
+  background-color: rgb(25, 24, 24);
+}
+.sec {
+  display: flex;
+  margin: 5px 0px;
+  padding: 2px;
+
+}
+.sec button{
+  margin : 0px 30px 0px 0px;
+  height: 23px;
+  width: 23px;
+  color: antiquewhite;
+  background-color: red;
+  border: 2px solid red;
+  outline: 2px solid red;
+  outline-offset: -2px;
+  transition: all 200ms ease;
+}
+.rule{
+  margin: 10px 0px;
+  border: 1px dashed rgb(95, 93, 93);
+  width: 200px;
+}
+.sec button:hover{
+  outline-offset: 3px;
+  cursor: pointer;
 }
